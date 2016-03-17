@@ -5,11 +5,11 @@
 config[:casper] = {
   blog: {
     url: 'http://blog.appcanary.com',
-    name: 'Appcanary',
-    description: '<a href="https://appcanary.com">Great Ruby Review</a> <br/> Keeping your gems safe.',
+    name: 'Great Ruby Review',
+    description: '<a href="https://rubysec.com">The Great Ruby Review</a>',
     date_format: '%d %B %Y',
-    navigation: false,
-    logo: 'appcanary.png' # Optional
+    navigation: true,
+    logo: nil # Optional
   },
   authors: {
     "phillmv" => {
@@ -38,9 +38,9 @@ config[:casper] = {
     }
   },
   navigation: {
-    "Home" => "/",
-    "Archive" => "archive.html",
-    "Github" => "https://github.com/appcanary"
+    "Home" => "..",
+    "About" => "../2016/about.html",
+    "Contribute" => "../2016/contribute.html"
   }
 }
 

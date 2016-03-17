@@ -1,0 +1,9 @@
+---
+title: About
+date: 2016-03-15
+tags: Great Ruby Review, About
+author: team
+published: true
+layout: single
+---
+This is the Great Ruby Review, a collaborative effort by Ruby developers to make flag and fix vulnerabilities in Ruby code. Spearheaded by [phillmv](http://github.com/phillmv) and [mveytsman](http://github.com/mveytsman).

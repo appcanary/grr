@@ -816,8 +816,9 @@ body.nav-opened .nav {
 
 /* When the navigation is closed */
 .nav-closed .menu-button {
-    color: #fff;
+    color: #f27043;
     border-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
 }
 .nav-closed .menu-button:hover {
     color: #222;
@@ -876,7 +877,7 @@ body.nav-opened .nav {
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 1.5em;
     font-weight: 400;
     /* font-family: "Merriweather", serif; */
@@ -894,8 +895,13 @@ body.nav-opened .nav {
     color: rgba(0,0,0,0.8);
 }
 
-.no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+.no-cover .page-description > a{
+    color: whitesmoke;
+    text-decoration:none;
+}
+
+.no-cover .page-description > a:hover{
+    color: white;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -1044,6 +1050,7 @@ body:not(.post-template) .post-title {
 
 .post-template .post-header {
    margin-bottom: 3.4rem;
+
 }
 
 .post-template .post-title {
@@ -1204,6 +1211,7 @@ body:not(.post-template) .post-title {
 .post-head.main-header {
     height: 65vh;
     min-height: 180px;
+
 }
 
 .no-cover.post-head.main-header {
@@ -1211,6 +1219,10 @@ body:not(.post-template) .post-title {
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
+    background-image: url("../images/full-triptych.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .tag-head.main-header {
@@ -1779,13 +1791,13 @@ body:not(.post-template) .post-title {
         padding: 0 5px;
         border-radius: 0;
         border-width: 0;
-        color: #2e2e2e;
-        background: transparent;
+        color: #f27043;
+        background-color: white;
     }
     .menu-button:hover {
         color: #2e2e2e;
-        border-color: transparent;
-        background: none;
+        border-color: white;
+        background-color: white;
     }
     body.nav-opened .menu-button {
         background: none;
