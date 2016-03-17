@@ -2,7 +2,7 @@
 title: Reviewing will_paginate
 date: 2016-03-17
 tags: Great Ruby Review, will_paginate, No bugs found
-author: zkdan
+author: team
 published: true
 layout: post
 ---

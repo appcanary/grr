@@ -2,7 +2,7 @@
 title: Reviewing warden
 date: 2016-03-17
 tags: Great Ruby Review, warden, No bugs found
-author: zkdan
+author: team
 published: true
 layout: post
 ---
