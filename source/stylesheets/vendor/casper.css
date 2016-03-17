@@ -1620,6 +1620,7 @@ body:not(.post-template) .post-title {
         min-height: 240px;
         height: 60vh;
         padding: 15% 0;
+        background-image: url("../images/appcanary-triptych-final-02.png") !important;
     }
 
     .scroll-down,

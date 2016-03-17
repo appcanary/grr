@@ -6,7 +6,7 @@ config[:casper] = {
   blog: {
     url: 'http://blog.appcanary.com',
     name: 'Appcanary',
-    description: '<a href="https://appcanary.com">Appcanary</a> makes sure you never run vulnerable software in your apps.',
+    description: '<a href="https://appcanary.com">Great Ruby Review</a> <br/> Keeping your gems safe.',
     date_format: '%d %B %Y',
     navigation: false,
     logo: 'appcanary.png' # Optional
