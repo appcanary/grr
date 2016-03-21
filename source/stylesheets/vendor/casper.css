@@ -506,7 +506,9 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    //background: #222 no-repeat center center;
+    background-image: url("../images/full-triptych.png");
+    background-position: 50% 0 !important;
     background-size: cover;
     overflow: hidden;
 }
@@ -877,7 +879,7 @@ body.nav-opened .nav {
 
 .page-description {
     margin: 0;
-    font-size: 4rem;
+    font-size: 4.8rem;
     line-height: 1.5em;
     font-weight: 400;
     /* font-family: "Merriweather", serif; */
@@ -898,6 +900,7 @@ body.nav-opened .nav {
 .no-cover .page-description > a{
     color: whitesmoke;
     text-decoration:none;
+    text-shadow: 2px 2px 2px black;
 }
 
 .no-cover .page-description > a:hover{
@@ -1220,6 +1223,7 @@ body:not(.post-template) .post-title {
     margin-bottom: 0;
     background: transparent;
     background-image: url("../images/full-triptych.png");
+    background-position: 50% 0 !important;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1624,6 +1628,9 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
 
+    .main-header .no-cover .post-head{
+        background-image: url("../images/full-triptych.png") !important;
+    }
     .main-header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -1632,8 +1639,8 @@ body:not(.post-template) .post-title {
         min-height: 240px;
         height: 60vh;
         padding: 15% 0;
-        background-image: url("../images/appcanary-triptych-final-02.png") !important;
     }
+
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
@@ -1653,7 +1660,7 @@ body:not(.post-template) .post-title {
     }
 
     .page-description {
-        font-size: 1.8rem;
+        font-size: 3.8rem;
         line-height: 1.5em;
     }
 
@@ -1881,7 +1888,7 @@ body:not(.post-template) .post-title {
     }
 
     .page-description {
-        font-size: 1.6rem;
+        font-size: 2.6rem;
     }
 
     h1, h2, h3,
