@@ -6,4 +6,29 @@ author: team
 published: true
 layout: info_page
 ---
-This is the Great Ruby Review, a collaborative effort by Ruby developers to make flag and fix vulnerabilities in Ruby code. Spearheaded by [phillmv](http://github.com/phillmv) and [mveytsman](http://github.com/mveytsman).
+
+We're doing something a little different.
+
+We're auditing the Ruby open source ecosystem, one gem at a time.
+And we need your help.
+
+What are you doing, exactly?
+We're picking Ruby libraries and we're getting them audited by security professionals.
+
+We have years of experience performing code reviews, and we know how to get the job done.
+
+What happens when you find something?
+As vulnerabilities get discovered, we'll be following a 90 day responsible disclosure policy.
+
+We'll contact maintainers, help them prepare patches and coordinate disclosures.
+
+What's in it for me?
+You'll find out what's vulnerable as soon as we do. You get a say in which libraries we look at next.
+
+You get to give back to the community, and improve everyone's security. We'll make sure people know about your contribution.
+
+Okay. You've convinced me. Now what?
+Join the club.
+
+We're enrolling our second batch of sponsors now. Contact us at [hello@appcanary.com](mailto:hello@appcanary.com) to learn more.
+
