@@ -92,3 +92,49 @@ h4, h5, h6 {
 .appcanary-logo img {
   width: 150px;
 }
+
+///Main Page About styles
+.about{
+  margin:0 15%;
+}
+
+.headline{
+  font-size: 1.3em;
+  border-bottom:1px solid lightgray;
+  margin-bottom:10%;
+  text-align: center;
+}
+.headline p, .cta p{
+  margin-bottom:1rem;
+}
+
+.headline p:first-child{
+  margin-bottom:3rem;
+}
+
+.question{
+  float:left;
+  width: 36%;
+  margin:0 2%; 
+  font-size: 1.3em;
+}
+.answer{
+  float: left;
+  width: 56%;
+  margin:0;
+  margin-left: 2%;
+}
+
+.cta p:first-child {
+ font-size:1.3em;
+ margin-top:10%;
+}
+
+.cta{
+  clear:both;
+  padding:0 15% 10% 15%;
+  border-top:1px solid lightgray;
+}
+
+
+

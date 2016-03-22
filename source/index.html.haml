@@ -2,9 +2,33 @@
 pageable: true
 per_page: 6
 ---
-
 = partial 'shared/main_header'
 
 %main#content.content{role: :main}
+  .about
+    .headline
+      %p We're doing something a little different.
+      %p We're auditing the Ruby open source ecosystem, one gem at a time. 
+      %p And we need your help.
+    .question
+      %p What are you doing, exactly?
+    .answer
+      %p We're picking Ruby libraries and we're getting them audited by security professionals.
+      %p We have years of experience performing code reviews, and we know how to get the job done.
+    .question
+      %p What happens when you find something?
+    .answer
+      %p As vulnerabilities get discovered, we'll be following a 90 day responsible disclosure policy.
+      %p We'll contact maintainers, help them prepare patches and coordinate disclosures.
+    .question
+      %p What's in it for me?
+    .answer
+      %p You'll find out what's vulnerable as soon as we do. You get a say in which libraries we look at next.
+      %p You get to give back to the community, and improve everyone's security. We'll make sure people know about your contribution.
+    .cta  
+      %p Okay. You've convinced me. Now what?
+      %p Join the club.
+      %p We're enrolling our second batch of sponsors now. Contact us at hello@appcanary.com to learn more.
+    %h2 Reviewed packages:
   = partial('shared/page_articles',
             locals: { page_articles: page_articles, paginate: paginate })

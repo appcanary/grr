@@ -5,8 +5,8 @@
   %article.post
     %header.post-header
       %h1.post-title= link_to article.title, article
-    %section.post-content
-      = article.body
+    // %section.post-content
+    //   = article.body
     %footer.post-meta
       - if gravatar?
         %img.author-thumb{src: gravatar(24), alt: blog_author(article).name, nopin: 'nopin'}
