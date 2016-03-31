@@ -9,7 +9,7 @@ config[:casper] = {
     description: '<a href="https://rubysec.com">The Great Ruby Review</a>',
     date_format: '%d %B %Y',
     navigation: true,
-    logo: nil # Optional
+    logo: "../images/badge.png" # Optional
   },
   authors: {
     "phillmv" => {
