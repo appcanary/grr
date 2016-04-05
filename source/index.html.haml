@@ -8,7 +8,9 @@ per_page: 6
   .about
     .headline
       %p We're doing something a little different.
+      %p We're auditing the Ruby open source ecosystem, one gem at a time. 
       %p And we need your help.
-    .headline Here are some packages we've already reviewed:
+    %h3 Here are some packages we've already reviewed:
+
   = partial('shared/page_articles',
             locals: { page_articles: page_articles, paginate: paginate })
