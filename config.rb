@@ -6,10 +6,10 @@ config[:casper] = {
   blog: {
     url: 'http://blog.appcanary.com',
     name: 'Great Ruby Review',
-    description: '<a href="https://rubysec.com">The Great Ruby Review</a>',
+    description: "We're auditing the Ruby open source ecosystem, one gem at a time.",
     date_format: '%d %B %Y',
-    navigation: true,
-    logo: "../images/badge.png" # Optional
+    navigation: false,
+    logo: "../images/single_banner.png" # Optional
   },
   authors: {
     "phillmv" => {
@@ -30,9 +30,10 @@ config[:casper] = {
     },
     "team" => {
       name: "Team Appcanary",
-      bio: nil,
+      bio: "Find out how you can keep your Linux servers and Ruby code secure using <a href='https://www.appcanary.com'>Appcanary</a>!",
       location: nil,
-      website: nil,
+      website: "https://www.appcanary.com",
+      gravatar: nil,
       gravatar_email: nil,
       twitter: nil
     }

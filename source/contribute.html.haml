@@ -1,0 +1,31 @@
+= wrap_layout :layout do
+  %header.main-header.post-head{cover}
+    %nav.main-nav.clearfix{class: cover? ? 'overlay' : nil}
+      - if blog_settings.logo.present?
+        %a.blog-logo{href: home_path}
+          = image_tag blog_settings.logo, alt: blog_settings.name
+      %div.mini_nav
+        %a.about_page{href:"../about.html"}
+          %span.word About
+        %a.contribute_page{href:"../contribute.html"}
+          %span.word Contribute
+  %main#content.content{role: :main}
+    .about.contribute
+      .headline
+        %p Contributing to the Great Ruby Review is easy!
+      .question
+        %p What's in it for me?
+      .answer
+        %p You'll find out what's vulnerable as soon as we do. You get a say in which libraries we look at next.
+        %p You get to give back to the community, and improve everyone's security. We'll make sure people know about your contribution.
+      .question
+        %p Who do I know who's done it?
+      .answer
+        %p (Ideally some logos would go here.)
+      .cta  
+        %p Okay. You've convinced me. Now what?
+        %p 
+          %a{href:"../contribute.html"} Join the club.
+        %p We're enrolling our second batch of sponsors now. Sponsors help us prioritize which packages we audit.
+        %p Contact us at hello@appcanary.com to learn more.
+

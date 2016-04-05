@@ -1,0 +1,37 @@
+= wrap_layout :layout do
+  %header.main-header.post-head{cover}
+    %nav.main-nav.clearfix{class: cover? ? 'overlay' : nil}
+      - if blog_settings.logo.present?
+        %a.blog-logo{href: home_path}
+          = image_tag blog_settings.logo, alt: blog_settings.name
+      %div.mini_nav
+        %a.about_page{href:"../about.html"}
+          %span.word About
+        %a.contribute_page{href:"../contribute.html"}
+          %span.word Contribute
+  %main#content.content{role: :main}
+    .about
+      .headline
+        %p Like we said, we're doing something a little different.
+        %p We're auditing the Ruby open source ecosystem, one gem at a time. 
+      .question
+        %p What are you doing, exactly?
+      .answer
+        %p We're picking Ruby libraries and we're getting them audited by security professionals.
+        %p We have years of experience performing code reviews, and we know how to get the job done.
+      .question
+        %p What happens when you find something?
+      .answer
+        %p As vulnerabilities get discovered, we'll be following a 90 day responsible disclosure policy.
+        %p We'll contact maintainers, help them prepare patches and coordinate disclosures.
+      .question
+        %p What's in it for me?
+      .answer
+        %p You'll find out what's vulnerable as soon as we do. You get a say in which libraries we look at next.
+        %p You get to give back to the community, and improve everyone's security. We'll make sure people know about your contribution.
+      .cta  
+        %p Okay. You've convinced me. Now what?
+        %p 
+          %a{href:"../contribute.html"} Join the club.
+        %p We're enrolling our second batch of sponsors now. Contact us at hello@appcanary.com to learn more.
+
