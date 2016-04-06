@@ -1,0 +1,11 @@
+%header.main-header.post-head{cover}
+  - if blog_settings.logo.present?
+    %a.blog-logo{href: home_path}
+      = image_tag blog_settings.logo, alt: blog_settings.name
+  %div.mini_nav
+    %a.about_page{href:"../about.html"}
+      %span.word About
+    %a.contribute_page{href:"../contribute.html"}
+      %span.word Contribute
+  %h1.title= blog_settings.name
+

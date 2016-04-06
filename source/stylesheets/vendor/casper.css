@@ -771,6 +771,7 @@ body.nav-opened .nav {
     float: left;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
+    margin:3%;
 }
 
 .blog-logo img {
@@ -778,9 +779,12 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 150px;
+    height: 50px;
     padding: 1px 0 5px 0;
     width: auto;
+    background: rgba(255,255,255,.8);
+    border-radius: 7px;
+    border: 1px solid lightgray;
 }
 
 .menu-button {

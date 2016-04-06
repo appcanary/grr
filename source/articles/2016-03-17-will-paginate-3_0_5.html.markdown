@@ -1,7 +1,8 @@
 ---
 title: will_paginate 3.0.5
+version: 3.0.5
 date: 2016-03-17
-tags: will_paginate, No bugs found
+tags: will_paginate, no bugs found, 3.0.5
 author: team
 published: true
 layout: post

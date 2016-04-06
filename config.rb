@@ -5,11 +5,11 @@
 config[:casper] = {
   blog: {
     url: 'http://blog.appcanary.com',
-    name: 'Great Ruby Review',
+    name: 'The Great Ruby Review',
     description: "We're auditing the Ruby open source ecosystem, one gem at a time.",
     date_format: '%d %B %Y',
     navigation: false,
-    logo: "../images/single_banner.png" # Optional
+    logo: "../images/logo.png" # Optional
   },
   authors: {
     "phillmv" => {
