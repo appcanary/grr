@@ -1,5 +1,5 @@
 ---
-title: will_paginate 3.0.5
+title: will_paginate
 version: 3.0.5
 date: 2016-03-17
 tags: will_paginate, no bugs found, 3.0.5
