@@ -9,7 +9,7 @@ config[:casper] = {
     description: "We're auditing the Ruby open source ecosystem, one gem at a time.",
     date_format: '%d %B %Y',
     navigation: false,
-    logo: "../images/logo.png" # Optional
+    logo: "../images/logo_tab_2.png" # Optional
   },
   authors: {
     "phillmv" => {
