@@ -926,7 +926,7 @@ body.nav-opened .nav {
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
-    width: 80%;
+    width: 60%;
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
@@ -1736,6 +1736,7 @@ body:not(.post-template) .post-title {
     .no-cover.post-head.main-header {
         height: 55px;
         padding: 0;
+        padding-top:20px;
     }
 
     .no-cover.author-head.main-header {
@@ -1788,6 +1789,9 @@ body:not(.post-template) .post-title {
         padding: 5px;
         margin-bottom: 2rem;
     }
+    .mini_nav{
+        top:25% !important;
+    }
 
     .about{
         margin:0 2% !important;
@@ -1798,7 +1802,7 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 50px;
     }
 
     .menu-button {
@@ -1820,9 +1824,9 @@ body:not(.post-template) .post-title {
 
     .main-nav.overlay a:hover {
         color: #fff;
-        border-color: transparent;
+        /*border-color: transparent;
         background: transparent;
-    }
+    */}
 
     .no-cover .main-nav.overlay {
         background: none;
@@ -1852,7 +1856,7 @@ body:not(.post-template) .post-title {
     .inner,
     .pagination {
         width: auto;
-        margin: 2rem auto;
+        margin: 4rem auto 2rem auto;
     }
 
     .post {
